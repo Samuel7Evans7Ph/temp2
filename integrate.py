@@ -19,7 +19,7 @@ def preprocess(file_path):
 
     img=tf.io.decode_jpeg(byte_img)
 
-    img=tf.image.resize(img,(100,100))
+    img=tf.image.resize(img,(100,100)
 
     img=img/255
 

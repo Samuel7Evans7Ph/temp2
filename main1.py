@@ -17,6 +17,12 @@ app=FastAPI()
 from process_initialisation import *
 
 
+@app.get("/upload_file/{}")
+
+
+
+
+
 @app.get("/upload_file/{image_file_name}")
 async def check_status(image_file_name:str):
     pres_status=present_status(image_file_name)
